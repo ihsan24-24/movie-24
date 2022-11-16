@@ -1,3 +1,91 @@
+# movie-24
+# Project : Movie App
+
+## Description and use of the site
+
+In this project, A movie viewing site was created using TMDB's api and Google firebase. 
+After the user is logged in, favorites and user control are done with redux, so when you refresh the page, the states are empty. 
+I will add redux-persist next week... the project took about 5 days. I didn't progress in sync with github, I uploaded it to github after it was finished
+## Check The Live Website ➡️ [Live Website](https://movie-24.netlify.app/)
+
+## Visualization of the Website
+
+![Form](./movie-app.gif)
+
+
+
+
+## Learning Outcomes
+
+At the end of the project, you will be able to;
+
+- improve coding skills within HTML & CSS & JS & ReactJS & Axios & React-Router & React-Redux & Google Firebase.
+
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+
+## Problem Statement
+
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+
+## Project Skeleton
+
+```
+Project(folder)
+|
+|----README.md
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── Carts.jsx
+│    │       ├── Fragman.jsx
+│    │       ├── Navbar.jsx
+│    ├── assests
+│    │       ├── Wallpapers.jpg
+│    ├── app
+│    │       ├── store.jsx
+│    ├── authencitation
+│    │       ├── firebase.js
+│    ├── features
+│    │       ├── AuthSlice.jsx
+│    │       ├── favoriteSlice.jsx
+│    ├── helpers
+│    │       ├── Toastify.js
+│    ├── pages
+│    │       ├── Detail.jsx
+│    │       ├── Favorites.jsx
+│    │       ├── Home.jsx
+│    │       ├── Login.jsx
+│    │       ├── Register.jsx
+│    ├── router
+│    │       ├── AppRouter.jsx
+│    │       ├── PrivateRouter.jsx
+│    ├── App.js
+│    ├── index.js
+│    ├── index.css
+└── package.json
+```
+
+### Overview
+
+I mastered HTML & CSS & JS & ReactJS features in this project.
+You can see the visual representation of the website above.
+
+## Notes
+
+- Step 1: Create React App using `npx create-react-app project-name`
+
+- Step 2: Push your application into your own public repo on Github
+
+- Step 3: Add project gif to your project and README.md file.
+
+## Resources
+
+- 🔥 You can use [`Edemam-API`](https://edemam.com/) for your own work.
+
+## Support
+Open an Issue, I will check it a soon as possible 👀
+Don't forget to start the repo ⭐
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
