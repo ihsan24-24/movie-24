@@ -1,0 +1,15 @@
+.bg-img {
+  width: 50vw;
+  min-height: calc(100vh - 70px);
+  background-image: url("../../assets/3d21422c5e1f993bc8a73ce51ab8d05c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.err-msg {
+  color: rgb(190, 66, 20);
+
+  width: 350px;
+  height: 30px;
+  margin-bottom: 0.3rem;
+}
