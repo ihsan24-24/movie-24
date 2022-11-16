@@ -1,0 +1,134 @@
+.home {
+  min-height: calc(100vh - 70px);
+  width: 100vw;
+  /* background-image: url("../../assets/perde-2.png"); */
+
+  /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+  background-color: black;
+  padding: 0.1px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.search-bar {
+  background-color: rgba(100, 100, 100, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  height: 70px;
+  width: calc(100vw - 0.1px);
+}
+#icon {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+#icon:active {
+  transform: scale(0.95);
+}
+#search-input {
+  height: 2rem;
+}
+#btn {
+  visibility: hidden;
+}
+.film-carts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.page-numbers {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.page-button {
+  padding: 0.7rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  transition: transform 0.2s, background-color 0.5s;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  width: 15px;
+}
+.page-button:hover {
+  cursor: pointer;
+  background-color: rgb(43, 125, 125);
+}
+.page-button:active {
+  transform: scale(0.97);
+  background-color: rgb(106, 104, 104);
+}
+#back {
+  margin-right: 3rem;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+.drp-span {
+  margin-left: 1rem;
+  background-color: beige;
+  padding: 0.2rem 1rem;
+}
+
+.drp-span:hover {
+  cursor: pointer;
+}
+#down-arrow {
+  margin-left: 0.5rem;
+}
+.visible {
+  position: absolute;
+  background-color: beige;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-left: 1rem;
+}
+.hidden {
+  display: none;
+}
+.visible:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .page-button {
+    padding: 0.5rem 0.5rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.5s;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    width: 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .page-button {
+    padding: 0.5rem 0.1rem;
+    /* margin-left: 0.5rem; */
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.5s;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    width: 20px;
+  }
+}
