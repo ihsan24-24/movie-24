@@ -1,0 +1,86 @@
+.low {
+  background-color: red;
+}
+.middle {
+  background-color: orange;
+}
+.high {
+  background-color: greenyellow;
+}
+.card {
+  border: 1px solid darkgrey;
+  margin: 0.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgba(0, 139, 139, 0.278);
+  color: white;
+}
+.table {
+  margin: 0.5rem 0;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+.film-img {
+  width: 200px;
+  height: 300px;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fa-solid {
+  color: red;
+}
+.fa-regular:hover {
+  cursor: pointer;
+}
+.fa-solid {
+  cursor: pointer;
+}
+.low {
+  background-color: red;
+}
+.middle {
+  background-color: orange;
+}
+.high {
+  background-color: greenyellow;
+}
+.card {
+  border: 1px solid darkgrey;
+  margin: 0.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgba(0, 139, 139, 0.278);
+  color: white;
+}
+.table {
+  margin: 0.5rem 0;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+.film-img {
+  width: 200px;
+  height: 300px;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fa-solid {
+  color: red;
+}
+.fa-regular:hover {
+  cursor: pointer;
+}
+.fa-solid {
+  cursor: pointer;
+}
