@@ -154,24 +154,73 @@ const Home = () => {
               id="left-end"
               onClick={changeLinkNumbers}
             >
-              <i className="fa-solid fa-angles-left" id="left-end"></i>
+              <i
+                className="fa-solid fa-angles-left"
+                id="left-end"
+                onClick={changeLinkNumbers}
+              ></i>
             </Link>
             <Link className="page-button" id="left" onClick={changeLinkNumbers}>
               <i className="fa-solid fa-angle-left" id="left"></i>
             </Link>
-            <Link className="page-button" id="page-btn" name={middlePage - 2}>
+            <Link
+              className={
+                // eslint-disable-next-line
+                pageNumber == middlePage - 2
+                  ? "page-button active-link"
+                  : "page-button"
+              }
+              id="page-btn"
+              name={middlePage - 2}
+            >
               {middlePage - 2}
             </Link>
-            <Link className="page-button" id="page-btn" name={middlePage - 1}>
+            <Link
+              className={
+                // eslint-disable-next-line
+                pageNumber == middlePage - 1
+                  ? "page-button active-link"
+                  : "page-button"
+              }
+              id="page-btn"
+              name={middlePage - 1}
+            >
               {middlePage - 1}
             </Link>
-            <Link className="page-button" id="page-btn" name={middlePage}>
+            <Link
+              className={
+                // eslint-disable-next-line
+                pageNumber == middlePage
+                  ? "page-button active-link"
+                  : "page-button"
+              }
+              id="page-btn"
+              name={middlePage}
+            >
               {middlePage}
             </Link>
-            <Link className="page-button" id="page-btn" name={middlePage + 1}>
+            <Link
+              className={
+                // eslint-disable-next-line
+                pageNumber == middlePage + 1
+                  ? "page-button active-link"
+                  : "page-button"
+              }
+              id="page-btn"
+              name={middlePage + 1}
+            >
               {middlePage + 1}
             </Link>
-            <Link className="page-button" id="page-btn" name={middlePage + 2}>
+            <Link
+              className={
+                // eslint-disable-next-line
+                pageNumber == middlePage + 2
+                  ? "page-button active-link"
+                  : "page-button"
+              }
+              id="page-btn"
+              name={middlePage + 2}
+            >
               {middlePage + 2}
             </Link>
             {/* <Link className="page-button">...</Link> */}
@@ -187,14 +236,22 @@ const Home = () => {
               id="right"
               onClick={changeLinkNumbers}
             >
-              <i className="fa-solid fa-angle-right" id="right"></i>
+              <i
+                className="fa-solid fa-angle-right"
+                id="right"
+                onClick={changeLinkNumbers}
+              ></i>
             </Link>
             <Link
               className="page-button"
               id="right-end"
               onClick={changeLinkNumbers}
             >
-              <i className="fa-solid fa-angles-right" id="right-end"></i>
+              <i
+                className="fa-solid fa-angles-right"
+                id="right-end"
+                onClick={changeLinkNumbers}
+              ></i>
             </Link>
           </>
         )}
