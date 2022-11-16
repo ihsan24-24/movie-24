@@ -184,7 +184,7 @@ const Home = () => {
             </Link> */}
             <Link
               className="page-button"
-              id="rigth"
+              id="right"
               onClick={changeLinkNumbers}
             >
               <i className="fa-solid fa-angle-right" id="right"></i>
