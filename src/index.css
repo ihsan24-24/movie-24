@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+input {
+  background-color: brown;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  height: 0.7rem;
+}
+input:focus {
+  height: 1rem;
+  background-color: rgba(27, 145, 45, 0.459);
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  border: 2px solid rgb(101, 100, 100);
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: black;
+}
+.link:hover {
+  background-color: rgb(43, 125, 125);
+  cursor: pointer;
+}
+.info-label {
+  height: 1.9rem;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(147, 8, 8);
+  width: 350px;
+  padding: 1rem;
+  box-shadow: rgba(122, 4, 4, 0.8) 0px 20px 50px 0px;
+}
+.google-btn {
+  text-decoration: none;
+  font-size: 1.15rem;
+  border: 2px solid rgb(101, 100, 100);
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.google-btn:hover {
+  background-color: rgb(43, 125, 125);
+  cursor: pointer;
+}
+.favorites-heading {
+  text-align: center;
+}
