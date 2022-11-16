@@ -4,7 +4,7 @@
 ## Description and use of the site
 
 In this project, A movie viewing site was created using TMDB's api and Google firebase. You can sign-in any e-mail or you can sing-up with Google. 
-After the user is logged in, favorites and user control are done with redux, so when you refresh the page, the states are empty. 
+If you sing-up you can add movies to your favorites list. After the user is logged in, favorites and user control are done with redux, so when you refresh the page, the states are empty. 
 I will add redux-persist next week... the project took about 5 days. I didn't progress in sync with github, I uploaded it to github after it was finished
 ## Check The Live Website ➡️ [Live Website](https://movie-24.netlify.app/)
 
